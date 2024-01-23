@@ -1,3 +1,5 @@
+import { db, addDoc, query, where, getDocs, deleteDoc, doc, updateDoc, collection } from './firebase.js';
+
 document.addEventListener('DOMContentLoaded', () => {
     const addMovieButton = document.querySelector('#add-btn');
     const searchButton = document.querySelector('#search-btn');
